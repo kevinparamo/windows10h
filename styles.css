@@ -470,6 +470,68 @@ border-left: 1px solid gray;
 width: 4px;
 height: 100%;
 }
+
+
+aside .apps {
+
+	margin-bottom: 8px;
+  
+	width: 70px;
+  
+	text-align: center;
+  
+	padding: 5px 15px 0px 6px;
+  
+	cursor: context-menu;
+  
+	border: 1px solid rgba(238, 238, 238, 0);
+  
+	border-radius: 4px;
+  
+	max-height: 100px;
+  
+  }
+
+
+
+
+
+  aside .apps:hover {
+
+	background: rgba(97, 97, 97, 0.25);
+  
+	border: 1px solid rgba(97, 97, 97, 0.5);
+  
+  }
+
+
+  aside img {
+
+	width: 28px;
+  
+  } 
+
+
+  aside {
+
+	padding: 20px;
+  
+	text-align: center;
+  
+	width: 46px;
+  
+	color: #fff;
+  
+  }
+
+
+  .apps {
+	padding: 10px;
+} 
+
+
+
+
 .taskClock:hover, .showDesktop:hover {
 background: #272727;
 }
