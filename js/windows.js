@@ -316,9 +316,12 @@ $("#whaIconFrame").click(function() {
 
 
 
-	const music = new Audio("sonido/sonido1.wav");
+	const music = new Audio("sonido1.wav");
 	music.play();
-	music.playbackRate = 1;
+	
+	
+
+	
 
 
 
