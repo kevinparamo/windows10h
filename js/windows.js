@@ -168,6 +168,100 @@ $(document).ready(function() {
 	});
 
 
+	$("#goIconFrame").click(function() {
+
+		var ancho_ventana = 995;
+		var alto_ventana = 460;
+		var window_left = (screen.width - ancho_ventana - 12) / 2;
+		var window_top = (screen.height - alto_ventana - 12) / 2;
+
+		//window.location = intersects[0].object.userData.URL;
+
+		window.open("https://www.google.com/search",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+		 
+	
+});
+
+
+
+$("#yoIconFrame").click(function() {
+
+	var ancho_ventana = 995;
+	var alto_ventana = 460;
+	var window_left = (screen.width - ancho_ventana - 12) / 2;
+	var window_top = (screen.height - alto_ventana - 12) / 2;
+
+	//window.location = intersects[0].object.userData.URL;
+
+	window.open("https://www.youtube.com/",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+	 
+
+});
+
+
+$("#faceIconFrame").click(function() {
+
+	var ancho_ventana = 995;
+	var alto_ventana = 460;
+	var window_left = (screen.width - ancho_ventana - 12) / 2;
+	var window_top = (screen.height - alto_ventana - 12) / 2;
+
+	//window.location = intersects[0].object.userData.URL;
+
+	window.open("https://www.facebook.com/",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+	 
+
+});
+
+
+$("#hosIconFrame").click(function() {
+
+	var ancho_ventana = 995;
+	var alto_ventana = 460;
+	var window_left = (screen.width - ancho_ventana - 12) / 2;
+	var window_top = (screen.height - alto_ventana - 12) / 2;
+
+	//window.location = intersects[0].object.userData.URL;
+
+	window.open("https://paginasimulatorhospital.s3.amazonaws.com/index.html",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+	 
+
+});
+
+
+$("#playIconFrame").click(function() {
+
+	var ancho_ventana = 995;
+	var alto_ventana = 460;
+	var window_left = (screen.width - ancho_ventana - 12) / 2;
+	var window_top = (screen.height - alto_ventana - 12) / 2;
+
+	//window.location = intersects[0].object.userData.URL;
+
+	window.open("https://www.youtube.com/embed/dYI5CqMleaE?controls=0",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+	 
+
+});
+
+
+$("#instaIconFrame").click(function() {
+
+	var ancho_ventana = 995;
+	var alto_ventana = 460;
+	var window_left = (screen.width - ancho_ventana - 12) / 2;
+	var window_top = (screen.height - alto_ventana - 12) / 2;
+
+	//window.location = intersects[0].object.userData.URL;
+
+	window.open("https://www.instagram.com/",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+	 
+
+});
+
+
+
+
+
 
 $("#ofIconFrame").click(function() {
 
@@ -190,6 +284,22 @@ $("#power").click(function() {
 
 
 $("#waIconFrame").click(function() {
+
+
+	var ancho_ventana = 995;
+	var alto_ventana = 460;
+	var window_left = (screen.width - ancho_ventana - 12) / 2;
+	var window_top = (screen.height - alto_ventana - 12) / 2;
+
+	//window.location = intersects[0].object.userData.URL;
+
+	window.open("https://web.whatsapp.com/",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+	 
+
+});
+
+
+$("#whaIconFrame").click(function() {
 
 
 	var ancho_ventana = 995;
