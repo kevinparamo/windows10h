@@ -315,6 +315,13 @@ $("#whaIconFrame").click(function() {
 });
 
 
+
+	const music = new Audio("sonido/sonido1.mp3");
+	music.play();
+	music.playbackRate = 1;
+
+
+
 	// Start Menu
 	// Taskbar icon
 	$("#startIconFrame").click(function() {
