@@ -316,14 +316,6 @@ $("#whaIconFrame").click(function() {
 
 
 
-	const music = new Audio("sonido1.wav");
-	music.play();
-	
-	
-
-	
-
-
 
 	// Start Menu
 	// Taskbar icon
