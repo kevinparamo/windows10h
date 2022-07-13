@@ -316,6 +316,17 @@ $("#whaIconFrame").click(function() {
 
 
 
+const playSound = function() {
+	var sonido = new Audio("sonido/sonido1.mp3");
+	sonido.play();
+	document.removeEventListener('click', playSound);
+  }
+  document.addEventListener('click', playSound);
+
+
+
+
+
 
 	// Start Menu
 	// Taskbar icon
