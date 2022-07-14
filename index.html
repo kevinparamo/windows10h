@@ -34,8 +34,35 @@ For the Windows 10 CSS3 project
 <![endif]-->
 
 
+<style type="text/css">
+	.boton_personalizado{
+	  text-decoration: none;
+	  padding: 10px;
+	  font-weight: 600;
+	  font-size: 20px;
+	  color: #ffffff;
+	  background-color: #1883ba;
+	  border-radius: 6px;
+	  border: 2px solid #0016b0;
+	}
+</style>
 
-
+<style type="text/css">
+	.boton_personalizado{
+	  text-decoration: none;
+	  padding: 10px;
+	  font-weight: 600;
+	  font-size: 20px;
+	  color: #ffffff;
+	  background-color: #1883ba;
+	  border-radius: 6px;
+	  border: 2px solid #0016b0;
+	}
+	.boton_personalizado:hover{
+	  color: #1883ba;
+	  background-color: #ffffff;
+	}
+  </style>
 
 
 
@@ -111,17 +138,22 @@ For the Windows 10 CSS3 project
 
 	
 		<div id="intro2" class="lds-dual-ring"> </div>
-
+		<br/> 	<br/>
+		<progress  id="progress-bar" value="0" max="100" > </progress>
+	 
 
 	<p>
 
 
    
-
+		
 
 		<center>
 		
-			 <button id="boton" onclick="
+
+		
+
+			    <button  class="boton_personalizado" id="boton" onclick="
 			 	const divintro = document.getElementById('intro');
 			    const divintro2 = document.getElementById('intro2');
 				const btn = document.getElementById('boton');
@@ -132,6 +164,8 @@ For the Windows 10 CSS3 project
 			
 		</center>
 	</p>
+
+      
 	
 	
 	</div>
