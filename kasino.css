@@ -43,7 +43,7 @@ label {
 	margin: 8px;
 	border-radius: 50%;
 	border: 6px solid #fff;
-	border-color: rgb(230, 14, 14) transparent rgb(245, 241, 13) transparent;
+	border-color: red transparent yellow transparent;
 	animation: lds-dual-ring 1.2s linear infinite;
 	}
 	@keyframes lds-dual-ring {
