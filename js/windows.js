@@ -316,6 +316,23 @@ $("#whaIconFrame").click(function() {
 
 
 
+$("#GameIconFrame").click(function() {
+
+
+	var ancho_ventana = 995;
+	var alto_ventana = 460;
+	var window_left = (screen.width - ancho_ventana - 12) / 2;
+	var window_top = (screen.height - alto_ventana - 12) / 2;
+
+	//window.location = intersects[0].object.userData.URL;
+
+	window.open("https://rcpw.s3.amazonaws.com/index.html",'',"width=995,height=470"+ ancho_ventana + ",height=" + alto_ventana + ",top=" + window_top + ",screenY=" + window_top + ",left=" + window_left + ",screenX=" + window_left + "");
+	 
+
+});
+
+
+
 const playSound = function() {
 	var sonido = new Audio("sonido/sonido1.mp3");
 	sonido.play();
